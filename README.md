@@ -1,6 +1,6 @@
 # simple Ci/Cd pipline using Git, Jenkins, Kubernetes
-
-sudo permissions required for jenkins user
+* install and configure kubectl on jenkins server
+* sudo permissions required for jenkins user
 ~~~
 echo ‘jenkins ALL=(ALL) NOPASSWD:ALL’ >> /etc/sudoers
 ~~~
