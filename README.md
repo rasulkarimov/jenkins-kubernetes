@@ -25,7 +25,7 @@ sudo kubectl apply -f /root/DevOpsAL/webdeploy.yml
 sleep 10
 sudo kubectl get all
 fi
-sudo kubectl cp /root/DevOpsAL/hello.html $(sudo kubectl get pod|grep webdeploy|awk ‘{print$1}’):/var/www/html/hello.html
+sudo kubectl cp /root/DevOpsAL/index.html $(sudo kubectl get pod | grep webdeploy | awk '{print$1}'):/var/www/html/index.html
 ~~~
 
 *
