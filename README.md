@@ -1,4 +1,4 @@
-# Ci/Cd pipline usng Git, Jenkins, Kubernetes
+# simple Ci/Cd pipline using Git, Jenkins, Kubernetes
 
 sudo permissions required for jenkins user
 ~~~
