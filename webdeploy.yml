@@ -42,7 +42,7 @@ spec:
             app: webdeploy
      spec:
          containers:
-         -  image: vimal13/apache-webserver-php
+         -  image: quay.io/rasulkarimov/do180-custom-httpd
             name: webdeploy
             ports:
             -  containerPort: 80
